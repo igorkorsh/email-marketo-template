@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="zh-Hans" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <meta class="mktoString" id="emailTitle" mktoname="Email Title" default="Kaspersky">
+  <meta class="mktoColor" id="emailBackground" mktoname="Email Background Color" default="#f3f3f3">
+  <meta class="mktoNumber" id="emailWidth" mktoname="Email Width" default="600" min="320" max="680" step="10">
+  <meta class="mktoNumber" id="moduleMarginLeft" mktoname="Email Left Margin" default="48" min="0" max="300" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="moduleMarginRight" mktoname="Email Right Margin" default="48" min="0" max="300" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoColor" id="moduleBackgroundWhite" mktoname="Module Background Color" default="#ffffff" mktoModuleScope="true">
+  <meta class="mktoColor" id="moduleBackgroundGray" mktoname="Module Background Color" default="#f3f3f3" mktoModuleScope="true">
+  <meta class="mktoNumber" id="modulePaddingTop30" mktoname="Spacer: Top" default="30" min="0" max="300" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="modulePaddingTop20" mktoname="Spacer: Top" default="20" min="0" max="300" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="modulePaddingTop10" mktoname="Spacer: Top" default="10" min="0" max="300" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="modulePaddingTop0" mktoname="Spacer: Top" default="0" min="0" max="300" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="modulePaddingBottom30" mktoname="Spacer: Bottom" default="30" min="0" max="300" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="modulePaddingBottom20" mktoname="Spacer: Bottom" default="20" min="0" max="300" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="modulePaddingBottom10" mktoname="Spacer: Bottom" default="10" min="0" max="300" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="modulePaddingBottom0" mktoname="Spacer: Bottom" default="0" min="0" max="300" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="fontSize10" mktoname="Font Size" default="10" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="fontSize12" mktoname="Font Size" default="12" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="fontSize14" mktoname="Font Size" default="14" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="fontSize16" mktoname="Font Size" default="16" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="fontSize18" mktoname="Font Size" default="18" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="fontSize32" mktoname="Font Size" default="32" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="lineHeight14" mktoname="Line Height" default="14" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="lineHeight18" mktoname="Line Height" default="18" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="lineHeight22" mktoname="Line Height" default="22" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="lineHeight24" mktoname="Line Height" default="24" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="lineHeight36" mktoname="Line Height" default="36" min="1" max="100" units="px" step="1" mktoModuleScope="true">
+  <meta class="mktoColor" id="textColorBlack" mktoname="Color" default="#1d1d1b" mktoModuleScope="true">
+  <meta class="mktoColor" id="textColorDarkGray" mktoname="Color" default="#666666" mktoModuleScope="true">
+  <meta class="mktoColor" id="textColorLightGray" mktoname="Color" default="#adadad" mktoModuleScope="true">
+  <meta class="mktoColor" id="textColorWhite" mktoname="Color" default="#ffffff" mktoModuleScope="true">
+  <meta class="mktoColor" id="emailLinkColor" mktoname="Link: Color" default="#00a88e">
+  <meta class="mktoNumber" id="spacerSize" mktoname="Spacer" default="30" min="1" max="300" step="1" mktoModuleScope="true">
+  <meta class="mktoBoolean" id="columnReverseFalse" mktoname="Reverse columns" default="false" false_value="ltr" true_value="rtl" false_value_name="No" true_value_name="Yes" mktoModuleScope="true">
+  <meta class="mktoBoolean" id="columnReverseTrue" mktoname="Reverse columns" default="true" false_value="ltr" true_value="rtl" false_value_name="No" true_value_name="Yes" mktoModuleScope="true">
+  <meta class="mktoNumber" id="dividerWidth" mktoname="Divider: Width" default="100" min="1" max="100" units="%" step="1" mktoModuleScope="true">
+  <meta class="mktoNumber" id="dividerHeight" mktoname="Divider: Height" default="1" min="1" max="100" step="1" mktoModuleScope="true">
+  <meta class="mktoColor" id="dividerColor" mktoname="Divider: Color" default="#1d1d1b" mktoModuleScope="true">
+  <meta class="mktoString" id="footerBorderTop" mktoname="Footer: Top Border" default="1px solid #f3f3f3" mktoModuleScope="true">
+  <meta class="mktoHTML" id="emailCustomStyles" mktoname="Custom CSS">
+  <meta class="mktoHTML" id="emailOutlookStyles" mktoname="Outlook CSS">
+  <title>${emailTitle}</title>
+
+  <!--[if gte mso 9]>
+  <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+
+  <style>
+    li {
+      text-indent: -1em;
+      display: list-item;
+      margin: 0 0 0 -48px;
+    }
+
+    ${emailOutlookStyles}
+  </style>
+  <![endif]-->
+
+  <style>
+    :root {
+      color-scheme: light;
+      supported-color-schemes: light;
+    }
+
+    html,
+    body {
+      margin: 0 auto !important;
+      padding: 0 !important;
+      height: 100% !important;
+      width: 100% !important;
+    }
+
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    div[style*="margin: 16px 0"] {
+      margin: 0 !important;
+    }
+
+    #MessageViewBody,
+    #MessageWebViewDiv {
+      width: 100% !important;
+    }
+
+    table,
+    td {
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+
+    table {
+      border-spacing: 0 !important;
+      border-collapse: collapse !important;
+      table-layout: fixed !important;
+      margin: 0 auto !important;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+
+    a[x-apple-data-detectors],
+    .unstyle-auto-detected-links a,
+    .aBn {
+      border-bottom: 0 !important;
+      cursor: default !important;
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    .im {
+      color: inherit !important;
+    }
+
+    .a6S {
+      display: none !important;
+      opacity: 0.01 !important;
+    }
+
+    img.g-img + div {
+      display: none !important;
+    }
+
+    .link {
+      color: ${emailLinkColor};
+      text-decoration: underline;
+    }
+
+    .mobile-only {
+      display: none !important;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+      u ~ div .email-container {
+        min-width: 320px !important;
+      }
+    }
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+      u ~ div .email-container {
+        min-width: 375px !important;
+      }
+    }
+
+    @media only screen and (min-device-width: 414px) {
+      u ~ div .email-container {
+        min-width: 414px !important;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .stack-column,
+      .stack-column-center {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        direction: ltr !important;
+      }
+
+      .stack-column-center {
+        text-align: center !important;
+      }
+
+      .center-on-narrow {
+        text-align: center !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+      }
+
+      table.center-on-narrow {
+        display: inline-block !important;
+      }
+
+      .pt0 {
+        padding-top: 0 !important;
+      }
+
+      .pr0 {
+        padding-right: 0 !important;
+      }
+
+      .pb0 {
+        padding-bottom: 0 !important;
+      }
+
+      .pl0 {
+        padding-left: 0 !important;
+      }
+
+      .pr8 {
+        padding-right: 8% !important;
+      }
+
+      .pl8 {
+        padding-left: 8% !important;
+      }
+
+      .w100 {
+        width: 100% !important;
+      }
+
+      .mobile-only {
+        display: block !important;
+      }
+
+      .desktop-only {
+        display: none !important;
+      }
+
+      .text-left {
+        text-align: left !important;
+      }
+    }
+
+    ${emailCustomStyles}
+  </style>
+</head>
+
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: ${emailBackground};">
+  <center role="article" aria-roledescription="email" lang="zh-Hans" style="width: 100%; background-color: ${emailBackground};">
+    <!--[if mso | IE]>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: ${emailBackground};">
+    <tr>
+    <td>
+    <![endif]-->
+    <div style="max-width: ${emailWidth}px; margin: 0 auto;" class="email-container">
+      <!--[if mso]>
+      <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="${emailWidth}">
+      <tr>
+      <td>
+      <![endif]-->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;" class="mktoContainer" id="emailTemplate">
+
+          <!-- Webview -->
+          <tr class="mktoModule" id="webview" mktoname="View in browser">
+            <td style="background-color: ${moduleBackgroundGray}; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom20} ${moduleMarginLeft}; font-family: Arial, sans-serif; font-size: ${fontSize10}; line-height: ${lineHeight14}; color: ${textColorLightGray};" class="pl8 pr8 mktoText" id="editWebview" mktoname="Edit text...">
+              <div style="text-align: right;">
+                <a href="{{system.viewAsWebpageLink:default=edit me}}" target="_blank" style="color: #adadad; text-decoration: underline;">在线查看</a>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Logo -->
+          <tr class="mktoModule" id="logo" mktoname="Logo">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop30} ${moduleMarginRight} ${modulePaddingBottom30} ${moduleMarginLeft};" class="pl8 pr8">
+              <div class="mktoImg" id="editLogo" mktoname="Edit logo..." mktoLockImgSize="false">
+                <a href="https://www.kaspersky.com.cn" target="_blank"><img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_logo.png" width="140" height="30" border="0" alt="Kaspersky" style="vertical-align: top;"></a>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Logo (partner) -->
+          <tr class="mktoModule" id="partnerLogo" mktoname="Logo (partner)" mktoAddByDefault="false">
+            <td dir="ltr" width="100%" height="100%" valign="top" style="background-color: ${moduleBackgroundWhite}; font-size: 0px; padding: ${modulePaddingTop30} ${moduleMarginRight} ${modulePaddingBottom30} ${moduleMarginLeft};" class="pl8 pr8">
+              <!--[if mso]>
+              <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="504" style="width: 504px;">
+              <tr>
+              <td valign="top" width="262" style="width: 262px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 262px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 10px 20px 0 0" class="pr0 pt0">
+                      <div class="mktoImg" id="editKasperskyLogo" mktoname="Edit logo..." mktoLockImgSize="false">
+                        <a href="https://www.kaspersky.com.cn" target="_blank"><img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_logo.png" width="140" height="30" border="0" alt="Kaspersky" style="vertical-align: top;"></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td aria-hidden="true" height="20" style="font-size: 0px; line-height: 0px;" class="mobile-only">&nbsp;</td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              <td valign="top" width="242" style="width: 242px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 242px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" align="right" class="text-left">
+                      <div class="mktoImg" id="editPartnerLogo" mktoname="Edit partner logo..." mktoLockImgSize="false">
+                        <img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_placeholder-logo_zh-Hans.png" width="150" height="50" border="0" alt="请将您的公司标识置于此处" style="vertical-align: top;">
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <!-- Hero Image -->
+          <tr class="mktoModule" id="heroImage" mktoname="Hero Image">
+            <td style="background-color: ${moduleBackgroundWhite};">
+              <div class="mktoImg" id="editHeroImage" mktoname="Edit image..." mktoLockImgSize="false">
+                <img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_big-pic.jpg" width="600" height="220" border="0" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;" class="g-img">
+              </div>
+            </td>
+          </tr>
+          
+          <!-- Hero Image and Text -->
+          <tr class="mktoModule" id="heroImageAndText" mktoname="Hero Image and Text" mktoAddByDefault="false">
+            <td dir="ltr" width="100%" height="100%" valign="top" style="background-color: ${moduleBackgroundWhite}; font-size: 0px; padding: 0 0 0 ${moduleMarginLeft};" class="pl0">
+              <!--[if mso]>
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="552" style="width: 552px;">
+              <tr>
+              <td valign="top" width="262" style="width: 262px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 262px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 0; padding-right: 20px; font-family: Arial, sans-serif; font-size: ${fontSize32}; line-height: ${lineHeight36}; color: ${textColorBlack};" class="pr0 mktoText" id="editHeroLeftColumn" mktoname="Edit content...">
+                      <div class="mobile-only"><img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_hero-image-mobile.png" width="600" height="236" border="0" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;" class="g-img"></div>
+                      <div><br></div>
+                      <div class="pr8 pl8"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong></div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              <td valign="top" width="290" style="width: 290px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 290px; vertical-align: top;" class="stack-column desktop-only">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" class="mktoText" id="editHeroRightColumn" mktoname="Edit content...">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                          <td>
+                            <img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_hero-image-desktop.png" width="290" height="219" border="0" alt="" style="vertical-align: top;">
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <!-- Heading 1 -->
+          <tr class="mktoModule" id="h1" mktoname="Heading 1">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop30} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft}; font-family: Arial, sans-serif; font-size: ${fontSize32}; line-height: ${lineHeight36}; color: ${textColorBlack};" class="pl8 pr8 mktoText" id="editHeading1" mktoname="Edit text...">
+              <div><strong>European partner conference</strong></div>
+            </td>
+          </tr>
+
+          <!-- Heading 2 -->
+          <tr class="mktoModule" id="h2" mktoname="Heading 2" mktoAddByDefault="false">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop30} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft}; font-family: Arial, sans-serif; font-size: ${fontSize18}; line-height: ${lineHeight24}; color: ${textColorBlack};" class="pl8 pr8 mktoText" id="editHeading2" mktoname="Edit text...">
+              <div>3 June 2050, University of Glasgow, Scotland</div>
+            </td>
+          </tr>
+
+          <!-- Heading 3 -->
+          <tr class="mktoModule" id="h3" mktoname="Heading 3">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop30} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft}; font-family: Arial, sans-serif; font-size: ${fontSize16}; line-height: ${lineHeight24}; color: ${textColorBlack};" class="pl8 pr8 mktoText" id="editHeading3" mktoname="Edit text...">
+              <div>Dear User,</div>
+            </td>
+          </tr>
+
+          <!-- Text -->
+          <tr class="mktoModule" id="text" mktoname="Text">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft}; font-family: Arial, sans-serif; font-size: ${fontSize14}; line-height: ${lineHeight22}; color: ${textColorBlack};" class="pl8 pr8 mktoText" id="editText" mktoname="Edit text...">
+              <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur culpa, doloremque, fugiat voluptas voluptatum nulla, nihil modi non est vitae quis doloribus quaerat officia.</div>
+            </td>
+          </tr>
+
+          <!-- Unordered List -->
+          <tr class="mktoModule" id="unorderedList" mktoname="Unordered List">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft};" class="pl8 pr8 mktoText" id="editUnorderedList" mktoname="Edit list...">
+              <ul style="padding: 0; margin: 0; margin-left: 16px; list-style-type: disc; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b;">
+                <li style="margin-bottom: 4px;">Lorem ipsum dolor sit amet.</li>
+                <li style="margin-bottom: 4px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dolore?</li>
+                <li style="margin-bottom: 4px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa earum molestiae quaerat blanditiis. Iste?</li>
+              </ul>
+              <ul style="padding: 0; margin: 0; margin-left: 32px; list-style-type: circle; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #00a88e;">
+                <li><span style="color: #1d1d1b;">Lorem ipsum dolor sit amet.</span></li>
+                <li><span style="color: #1d1d1b">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dolore?</span></li>
+                <li><span style="color: #1d1d1b;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa earum molestiae quaerat blanditiis. Iste?</span></li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- Ordered List -->
+          <tr class="mktoModule" id="orderedList" mktoname="Ordered List" mktoAddByDefault="false">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft};" class="pl8 pr8 mktoText" id="editOrderedList" mktoname="Edit list...">
+              <ol type="1" style="padding: 0; margin: 0; margin-left: 16px; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b;">
+                <li style="margin-bottom: 4px;">Lorem ipsum dolor sit amet.</li>
+                <li style="margin-bottom: 4px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dolore?</li>
+                <li style="margin-bottom: 4px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa earum molestiae quaerat blanditiis. Iste?</li>
+              </ol>
+            </td>
+          </tr>
+
+          <!-- Call-to-Action -->
+          <tr class="mktoModule" id="button" mktoname="Call-to-Action">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft};" class="pl8 pr8 mktoText" id="editButton" mktoname="Edit button...">
+              <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" class="w100">
+                <tr>
+                  <td style="border-radius: 3px; background: #ed2939;">
+                    <a href="https://" target="_blank" style="background: #ed2939; border: 1px solid #ed2939; padding: 10px 20px; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #ffffff; text-align: center; text-decoration: none; text-transform: uppercase; display: block; border-radius: 3px;">Button text</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footnote -->
+          <tr class="mktoModule" id="footnote" mktoname="Footnote" mktoAddByDefault="false">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft}; font-family: Arial, sans-serif; font-size: ${fontSize12}; line-height: ${lineHeight18}; color: ${textColorDarkGray};" class="pl8 pr8 mktoText" id="editFootnote" mktoname="Edit text...">
+              <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur culpa, doloremque, fugiat voluptas voluptatum nulla, nihil modi non est vitae quis doloribus quaerat officia.</div>
+            </td>
+          </tr>
+
+          <!-- Columns x2 -->
+          <tr class="mktoModule" id="col2" mktoname="Columns x2" mktoAddByDefault="false">
+            <td dir="${columnReverseFalse}" width="100%" height="100%" valign="top" style="background-color: ${moduleBackgroundWhite}; font-size: 0px; padding: ${modulePaddingTop30} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft};" class="pl8 pr8 mktoText" id="editCol2" mktoname="Edit content...">
+              <!--[if mso]>
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="504" style="width: 504px;">
+              <tr>
+              <td valign="top" width="262" style="width: 262px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 262px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 0; padding-right: 20px; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b; text-align: center;" class="pr0">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                          <td>
+                            <img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_photo-01.jpg" width="242" height="160" border="0" alt="" style="vertical-align: top;">
+                          </td>
+                        </tr>
+                      </table><br>
+                      <p style="margin: 0;">Konstantine Konstantinov</p>
+                      <p style="margin: 0; color: #666666;">Pre-sales support engineer, "Kaspersky" security software.</p><br class="mobile-only">
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              <td valign="top" width="242" style="width: 242px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 242px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b; text-align: center;">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                          <td>
+                            <img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_photo-02.jpg" width="242" height="160" border="0" alt="" style="vertical-align: top;">
+                          </td>
+                        </tr>
+                      </table><br>
+                      <p style="margin: 0;">Ivan Ivanov</p>
+                      <p style="margin: 0; color: #666666;">Pre-sales support engineer, "Kaspersky" security software.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <!-- Columns x3 -->
+          <tr class="mktoModule" id="col3" mktoname="Columns x3" mktoAddByDefault="false">
+            <td dir="${columnReverseFalse}" width="100%" height="100%" valign="top" style="background-color: ${moduleBackgroundWhite}; font-size: 0px; padding: ${modulePaddingTop30} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft};" class="pl8 pr8 mktoText" id="editCol3" mktoname="Edit content...">
+              <!--[if mso]>
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="504" style="width: 504px;">
+              <tr>
+              <td valign="top" width="174" style="width: 174px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 174px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 0; padding-right: 19px; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b; text-align: center;" class="pl0 pr0">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                          <td>
+                            <img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_image-01.png" width="154" height="154" border="0" alt="">
+                          </td>
+                        </tr>
+                      </table>
+                      <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              <td valign="top" width="174" style="width: 174px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 174px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 0; padding-right: 19px; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b; text-align: center;" class="pl0 pr0">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                          <td>
+                            <img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_image-02.png" width="154" height="154" border="0" alt="">
+                          </td>
+                        </tr>
+                      </table>
+                      <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              <td valign="top" width="155" style="width: 155px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 155px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b; text-align: center;" class="pl0 pr0">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                          <td>
+                            <img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_image-03.png" width="154" height="154" border="0" alt="">
+                          </td>
+                        </tr>
+                      </table>
+                      <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <!-- Framed Content -->
+          <tr class="mktoModule" id="framedContent" mktoname="Framed Content" mktoAddByDefault="false">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop30} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft};" class="pl8 pr8 mktoText" id="editFramedContent" mktoname="Edit content...">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border: 1px solid #cccccc;">
+                <tr>
+                  <td style="padding: 25px 30px; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b;">
+                    <div style="font-size: 24px; line-height: 28px;">Lorem, ipsum dolor.</div>
+                    <div><br></div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. A alias, deleniti, labore, quisquam rem necessitatibus quod repudiandae accusamus repellendus perspiciatis facere voluptas earum hic!</div>
+                    <div><br></div>
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="w100" style="float: left;">
+                      <tr>
+                        <td style="border-radius: 3px; background: #f8f8f8;">
+                          <a href="https://" target="_blank" style="background: #f8f8f8; border: 1px solid #cccccc; padding: 10px 20px; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #265951; text-align: center; text-decoration: none; text-transform: uppercase; display: block; border-radius: 3px;">Button text</a>
+                        </td>
+                      </tr>
+                    </table>
+                    <div style="clear: both;"><br></div>
+                    <div style="font-size: 12px; line-height: 18px; color: #666666;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eos est quae asperiores similique deserunt labore reprehenderit, sint, ea optio, a velit?</div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Column Framed Content -->
+          <tr class="mktoModule" id="colFramedContent" mktoname="Columns x2: Framed Content" mktoAddByDefault="false">
+            <td dir="${columnReverseTrue}" width="100%" height="100%" valign="top" style="background-color: ${moduleBackgroundWhite}; font-size: 0px; padding: ${modulePaddingTop30} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft};" class="pl8 pr8 mktoText" id="editColFramedContent" mktoname="Edit content...">
+              <!--[if mso]>
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="504" style="width: 504px;">
+              <tr>
+              <td valign="top" width="242" style="width: 242px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 242px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 0;">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f8f8f8; border: 1px solid #cccccc;">
+                        <tr>
+                          <td style="padding: 25px 30px; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b;">
+                            <p style="margin: 0; font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur inventore nihil?</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td aria-hidden="true" height="20" style="font-size: 0px; line-height: 0px;" class="mobile-only">&nbsp;</td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              <td valign="top" width="262" style="width: 262px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 262px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 0; padding-right: 20px; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b;" class="pr0">
+                      <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo enim, illum necessitatibus amet, explicabo incidunt rerum maxime at fuga fugiat, quod aperiam cupiditate. Eligendi, vitae reiciendis sint dolorum atque optio quidem aliquid.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <!-- Article -->
+          <tr class="mktoModule" id="article" mktoname="Article" mktoAddByDefault="false">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft}; font-family: Arial, sans-serif;" class="pl8 pr8 mktoText" id="editArticle" mktoname="Edit article...">
+              <div style="font-size: 32px; line-height: 36px; color: #1d1d1b;"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quos!</strong></div>
+              <div><br></div>
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td>
+                    <img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_article.jpg" width="504" height="284" border="0" alt="" style="width: 100%; max-width: 504px; height: auto; margin: auto; display: block;" class="g-img">
+                  </td>
+                </tr>
+              </table>
+              <div><br></div>
+              <div style="font-size: 14px; line-height: 22px; color: #1d1d1b;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, odit reprehenderit iure, at <a href="https://" target="_blank" class="link">nemo sed voluptas</a> eaque iusto eveniet corporis porro. Perspiciatis quos repudiandae nesciunt, at tempore, molestiae, eveniet nobis sunt tenetur corrupti et cumque laborum eligendi architecto sed dolorem veniam quae aut enim adipisci rerum nisi! Distinctio, fugit cumque?</div>
+            </td>
+          </tr>
+
+          <!-- Spacer -->
+          <tr class="mktoModule" id="spacer" mktoname="Spacer">
+            <td aria-hidden="true" height="${spacerSize}" style="background-color: ${moduleBackgroundWhite}; font-size: 0px; line-height: 0px;">&nbsp;</td>
+          </tr>
+
+          <!-- Divider -->
+          <tr class="mktoModule" id="divider" mktoname="Divider" mktoAddByDefault="false">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom20} ${moduleMarginLeft};">
+              <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="${dividerWidth}" style="margin: auto;">
+                <tr>
+                  <td aria-hidden="true" height="${dividerHeight}" style="background-color: ${dividerColor}; font-size: ${dividerHeight}px; line-height: ${dividerHeight}px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr class="mktoModule" id="footer" mktoname="Footer">
+            <td dir="ltr" width="100%" height="100%" valign="top" style="background-color: ${moduleBackgroundWhite}; font-size: 0px; padding: ${modulePaddingTop30} ${moduleMarginRight} ${modulePaddingBottom30} ${moduleMarginLeft}; border-top: ${footerBorderTop};" class="pl8 pr8 mktoText" id="editFooter" mktoname="Edit footer...">
+            <!--[if mso]>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin-left: 0; margin-right: auto;">
+            <tr>
+            <td valign="top" width="125" style="width: 125px;">
+            <![endif]-->
+            <div style="display: inline-block; width: 100%; max-width: 125px; vertical-align: top;" class="stack-column">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td dir="ltr" style="font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #1d1d1b;">
+                    <p style="margin: 0;">关注卡巴斯基：</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td aria-hidden="true" height="10" style="font-size: 0px; line-height: 0px;" class="mobile-only">&nbsp;</td>
+                </tr>
+              </table>
+            </div>
+            <!--[if mso]>
+            </td>
+            <td valign="top" width="106" style="width: 106px;">
+            <![endif]-->
+            <div style="display: inline-block; width: 100%; max-width: 106px; vertical-align: top;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td dir="ltr" style="padding: 0; padding-right: 20px;">
+                    <a href="http://t.sina.com.cn/kasperskylab" target="_blank"><img src="https://img.icons8.com/ios-filled/44/808080/weibo.png" width="22" height="22" border="0" alt="Instagram" style="vertical-align: top;"></a>
+                  </td>
+                  <td dir="ltr" style="padding: 0; padding-right: 20px;">
+                    <a href="http://du.kaspersky.com.cn/Wechat/" target="_blank"><img src="https://img.icons8.com/ios-glyphs/44/808080/wechat.png" width="22" height="22" border="0" alt="YouTube" style="vertical-align: top;"></a>
+                  </td>
+                  <td dir="ltr">
+                    <a href="https://www.linkedin.com/company/kaspersky-lab" target="_blank"><img src="https://img.icons8.com/ios-glyphs/44/808080/linkedin.png" width="22" height="22" border="0" alt="LinkedIn" style="vertical-align: top;"></a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            </td>
+          </tr>
+
+          <!-- Footer: Logo -->
+          <tr class="mktoModule" id="footerLogo" mktoname="Footer: Logo" mktoActive="false">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop0} ${moduleMarginRight} ${modulePaddingBottom30} ${moduleMarginLeft};" class="pl8 pr8">
+              <div class="mktoImg" id="editFooterLogo" mktoname="Edit logo..." mktoLockImgSize="false">
+                <a href="https://www.kaspersky.com.cn" target="_blank"><img src="https://go.kaspersky.com/rs/802-IJN-240/images/ET_logo.png" width="140" height="30" border="0" alt="Kaspersky" style="vertical-align: top;"></a>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Copyright: Template -->
+          <tr class="mktoModule" id="copyrightTemplate" mktoname="Copyright: Template" mktoAddByDefault="false">
+            <td dir="ltr" width="100%" height="100%" valign="top" style="background-color: ${moduleBackgroundGray}; font-size: 0px; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom20} ${moduleMarginLeft};" class="pl8 pr8">
+              <!--[if mso]>
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="504" style="width: 504px;">
+              <tr>
+              <td valign="top" width="262" style="width: 262px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 262px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 0; padding-right: 20px; font-family: Arial, sans-serif; font-size: ${fontSize10}; line-height: ${lineHeight14}; color: ${textColorLightGray};" class="pl0 pr0 mktoText" id="editCopyrightTemplateLeftColumn" mktoname="Edit content...">
+                      <p style="margin: 0;">一些有用信息</p><br>
+                      <p style="margin: 0;">
+                        客户支持：<br>
+                        <a href="https://support.kaspersky.com" target="_blank" style="color: #adadad; text-decoration: underline;">http://support.kaspersky.com</a>
+                      </p><br>
+                      <p style="margin: 0;">
+                        北京市东城区青龙胡同1号歌华大厦B座1219室<br>
+                        <a href="https://www.kaspersky.com" target="_blank" style="color: #adadad; text-decoration: underline;">www.kaspersky.com</a>
+                      </p><br>
+                      <p style="margin: 0;">&copy; {{my.year}} AO 卡巴斯基实验室</p><br class="mobile-only">
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              <td valign="top" width="242" style="width: 242px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 242px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="font-family: Arial, sans-serif; font-size: ${fontSize10}; line-height: ${lineHeight14}; color: ${textColorLightGray};" class="mktoText" id="editCopyrightTemplateRightColumn" mktoname="Edit content...">
+                      <p style="margin: 0;">To make sure your Kaspersky emails get to your inbox, please add <a href="mailto:no‑reply@Kaspersky.com" target="_blank" style="color: #adadad; text-decoration: underline;">no‑reply@Kaspersky.com</a> to your address book or safe list.</p>
+                      <p style="margin: 0;">To change your contact details for future communications, please <a href="https://www.kaspersky.com" target="_blank" style="color: #adadad; text-decoration: underline;">click here</a>.</p>
+                      <p style="margin: 0;">This e-mail has been sent to <a href="{{lead.Email Address}}" target="_blank" style="color: #adadad; text-decoration: underline;">{{lead.Email Address}}</a>. You have received this email because you have purchased from <a href="https://www.kaspersky.com" target="_blank" style="color: #adadad; text-decoration: underline;">Kaspersky.com</a>.</p>
+                      <p style="margin: 0;">If you do not want to receive this email again, please <a href="{{system.unsubscribeLink}}" target="_blank" style="color: #adadad; text-decoration: underline;">click here</a>.</p><br>
+                      <p style="margin: 0;">
+                        <a href="https://" target="_blank" style="color: #adadad; text-decoration: underline;">Privacy policy</a> | <a href="https://" target="_blank" style="color: #adadad; text-decoration: underline;">Contact us</a><br>
+                        <a href="https://" target="_blank" style="color: #adadad; text-decoration: underline;">Send us a suspected virus</a> | <a href="https://" target="_blank" style="color: #adadad; text-decoration: underline;">Find out more</a><br>
+                        <a href="https://" target="_blank" style="color: #adadad; text-decoration: underline;">Please forward this email to a friend</a> | <a href="https://" target="_blank" style="color: #adadad; text-decoration: underline;">Unsubscribe</a>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <!-- Copyright: Most used -->
+          <tr class="mktoModule" id="copyrightMostCommon" mktoname="Copyright: Most Common">
+            <td dir="ltr" width="100%" height="100%" valign="top" style="background-color: ${moduleBackgroundGray}; font-size: 0px; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom20} ${moduleMarginLeft};" class="pl8 pr8">
+              <!--[if mso]>
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="504" style="width: 504px;">
+              <tr>
+              <td valign="top" width="262" style="width: 262px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 262px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="padding: 0; padding-right: 20px; font-family: Arial, sans-serif; font-size: ${fontSize10}; line-height: ${lineHeight14}; color: ${textColorLightGray};" class="pl0 pr0 mktoText" id="editCopyrightMostCommonLeftColumn" mktoname="Edit content...">
+                      <p style="margin: 0;">一些有用信息</p><br>
+                      <p style="margin: 0;">
+                        客户支持：<br>
+                        <a href="https://support.kaspersky.com" target="_blank" style="color: #adadad; text-decoration: underline;">http://support.kaspersky.com</a>
+                      </p><br>
+                      <p style="margin: 0;">
+                        北京市东城区青龙胡同1号歌华大厦B座1219室<br>
+                        <a href="https://www.kaspersky.com.cn" target="_blank" style="color: #adadad; text-decoration: underline;">www.kaspersky.com.cn</a>
+                      </p><br class="mobile-only">
+                    </td>
+                  </tr>
+                </table>
+              </div>
+               <!--[if mso]>
+              </td>
+              <td valign="top" width="242" style="width: 242px;">
+              <![endif]-->
+              <div style="display: inline-block; width: 100%; max-width: 242px; vertical-align: top;" class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td dir="ltr" style="font-family: Arial, sans-serif; font-size: ${fontSize10}; line-height: ${lineHeight14}; color: ${textColorLightGray};" class="mktoText" id="editCopyrightMostCommonRightColumn" mktoname="Edit content...">
+                      <p style="margin: 0;">&copy; {{my.year}} AO 卡巴斯基实验室</p><br>
+                      <p style="margin: 0;">此电子邮件由卡巴斯基实验室发送。此电子邮件已发送到 <a href="{{lead.Email Address}}" target="_blank" style="color: #adadad; text-decoration: underline;">{{lead.Email Address}}</a>。如果您不想再接收这些电子邮件，您可以随时<a href="{{system.unsubscribeLink}}" target="_blank" style="color: #adadad; text-decoration: underline;">取消订阅</a>。我们尊重您的隐私权 – 单击<a href="https://www.kaspersky.com.cn/web-privacy-policy" target="_blank" style="color: #adadad; text-decoration: underline;">此处</a>查看我们的政策。</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <!-- Copyright: Old -->
+          <tr class="mktoModule" id="copyrightOld" mktoname="Copyright: Old" mktoAddByDefault="false">
+            <td style="background-color: ${moduleBackgroundGray}; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom20} ${moduleMarginLeft}; font-family: Arial, sans-serif; font-size: ${fontSize10}; line-height: ${lineHeight14}; color: ${textColorLightGray}; text-align: center;" class="pl8 pr8 mktoText" id="editCopyrightOld" mktoname="Edit copyright...">
+              <p style="margin: 0;">&copy; {{my.year}} AO 卡巴斯基实验室</p><br>
+              <p style="margin: 0;">此电子邮件由卡巴斯基实验室发送。此电子邮件已发送到 <a href="{{lead.Email Address}}" target="_blank" style="color: #adadad; text-decoration: underline;">{{lead.Email Address}}</a>。如果您不想再接收这些电子邮件，您可以随时<a href="{{system.unsubscribeLink}}" target="_blank" style="color: #adadad; text-decoration: underline;">取消订阅</a>。我们尊重您的隐私权 – 单击<a href="https://www.kaspersky.com.cn/web-privacy-policy" target="_blank" style="color: #adadad; text-decoration: underline;">此处</a>查看我们的政策。</p>
+            </td>
+          </tr>
+
+          <!-- Custom -->
+          <tr class="mktoModule" id="custom" mktoname="Custom HTML" mktoAddByDefault="false">
+            <td style="background-color: ${moduleBackgroundWhite}; padding: ${modulePaddingTop20} ${moduleMarginRight} ${modulePaddingBottom0} ${moduleMarginLeft}" class="mktoText" id="editCustom" mktoname="Edit HTML...">
+              <!-- Add custom HTML here -->
+            </td>
+          </tr>
+
+        </table>
+      <!--[if mso]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+    </div>
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+  </center>
+</body>
+
+</html>
